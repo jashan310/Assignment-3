@@ -1,0 +1,86 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  header{
+    letter-spacing: 4px;
+    text-align: center;
+  }
+  h2+p{
+    text-indent: 20px;
+  }
+  a{
+    color: brown;
+    outline: none;
+    
+  }
+  a:hover{
+    text-decoration: none;
+    color: rgb(197, 19, 19);
+  }
+  h2{
+    font-size: medium;
+  }
+  h1{
+    font-size: large;
+  }
+  nav li{
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    border:brown solid 1px;
+    text-align: center;
+    width: 100px;
+    height: auto;
+    line-height: 20px;
+    
+  }
+  nav a{
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  nav ul{
+    font-weight: bold;
+    font-size: larger;
+  }  
